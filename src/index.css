@@ -1,22 +1,32 @@
-.divClass{
-color:red;
-background:green;
-display:inline-block;
-
+.innerParagraph{
+    color:blueviolet;
 }
-span{
-background:blue;
-color:white;
-margin-left:30px;
-font-size:15px;
-text-transform:Capitalize;
+#outerP{
+    color:red;
+    position:absolute;
+    top:0%;
+    left:50%;
+    width:250px;
+    height: 100px;
+    overflow-x: scroll;
+    overflow-y: scroll;
 }
-.btn{
-display:block;
+p:hover{
+    cursor:pointer;
 }
-.btn:hover{
-color:black;
-background:white;
-cursor:pointer;
-border-radius:5px;
+#sidebarElement{
+height:100px;
+text-align:center;
+width:250px;
+overflow-x:scroll;
+overflow-y:scroll;
+}
+#outerDiv{
+    height:800px;
+    width:250px;
+    display:inline-block;
+    background: #998d8d;
+}
+.sidebarElement :hover{
+    cursor:pointer;
 }
