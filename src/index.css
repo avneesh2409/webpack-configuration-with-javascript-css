@@ -1,6 +1,25 @@
+
 .innerParagraph{
     color:blueviolet;
 }
+
+#examples{
+	padding: 10px;
+	overflow: hidden;
+	position:absolute;
+	border-radius: 10px;
+	right:30%;
+	top:20%;
+}
+.content{
+	overflow: auto;
+	padding: 10px;
+	background: rgb(75, 69, 69);
+	max-width: 250px;
+	height: 200px;
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+}
+
 #outerP{
     color:red;
     position:absolute;
